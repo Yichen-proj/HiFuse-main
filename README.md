@@ -2,7 +2,7 @@
 
 HiFuse is a spatial multi-omics integration method that learns a joint representation from paired molecular modalities and spatial information. The repository contains the core implementation and a single reproducible runner for the 14 supported datasets.
 
-![HiFuse workflow](流程图.png)
+![HiFuse workflow](Framework.png)
 
 ## Requirements
 
