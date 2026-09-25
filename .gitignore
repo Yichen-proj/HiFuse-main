@@ -1,0 +1,25 @@
+# Local datasets are not distributed with the source repository.
+Data/
+
+# Generated results, caches and local environments.
+results/
+outputs/
+logs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# Trained weights and serialized local artifacts.
+*.h5ad
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npz
+*.npy
+*.joblib
