@@ -1,4 +1,4 @@
-# HiFuse
+# HiFuse: A Dual-Graph Hierarchical Adaptive Fusion Framework for Spatial Multi-Omics Integration
 
 HiFuse is a spatial multi-omics integration method that learns a joint representation from paired molecular modalities and spatial information. The repository contains the core implementation and a single reproducible runner for the 14 supported datasets.
 
