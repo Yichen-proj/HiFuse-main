@@ -25,24 +25,7 @@ The clustering step uses the R package `mclust`; therefore, `Rscript` and `mclus
 
 ## Data
 
-Place each dataset under `Data/<dataset>/`. The repository runner supports:
-
-1. `HLN`
-2. `Human_Brain_Hippocampal_Spatial-epigenome-transcriptome`
-3. `Human_Lymph_Node_S2`
-4. `Human_Lymph_Node_S3`
-5. `Human_tonsil_s1_10x`
-6. `Mouse_Brain`
-7. `Mouse_Brain_E11_MISAR`
-8. `Mouse_Brain_E13_MISAR`
-9. `Mouse_Brain_E15_MISAR`
-10. `Mouse_Brain_E18_MISAR`
-11. `Mouse_Spleen`
-12. `Mouse_Spleen1`
-13. `Mouse_Spleen2`
-14. `Simulation`
-
-See `Data/README.md` for the expected directory layout.
+HiFuse was evaluated on 14 publicly available spatial multi-omics datasets, including four from the 10x Genomics Visium platform, three from the SPOTS platform, four from the MISAR-seq platform, two from the spatial epigenome-transcriptome co-profiling platform, and one simulated dataset. All public datasets used by HiFuse can be downloaded free of charge from Zenodo: [Spatial multi-omics datasets for HiFuse](https://doi.org/10.5281/zenodo.22986116).
 
 ## Run
 
@@ -59,8 +42,7 @@ The runner trains HiFuse with the fixed dataset-specific baseline settings and w
 ```text
 HiFuse/       Core model, preprocessing, training and evaluation code
 scripts/      Reproducible 14-dataset entry point
-Data/         Input datasets
-results/      Generated at runtime
+Data/         Dataset download and placement instructions
 ```
 
 ## License
