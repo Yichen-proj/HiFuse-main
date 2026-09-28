@@ -8,6 +8,10 @@ HiFuse is a spatial multi-omics integration method that learns a joint represent
 
 HiFuse accepts paired modalities measured at shared tissue locations and learns a unified representation for spatial domain identification. First, each modality is preprocessed, and a modality-specific feature graph is paired with one shared spatial graph. Next, a dual-graph encoder extracts molecular-similarity and spatial-proximity representations. HAF then integrates graph views, modalities, and complementary fusion paths through three attention levels. Finally, SCCO aligns paired spots while preserving input and modality-specific information.
 
+## Results
+
+![HiFuse results](Results.png)
+
 ## Requirements
 
 - `python==3.8`
