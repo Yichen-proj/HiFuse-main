@@ -10,7 +10,7 @@ HiFuse accepts paired modalities measured at shared tissue locations and learns 
 
 ## Results
 
-![HiFuse results](Results.png)
+![HiFuse results](Results/Results.png)
 
 ## Requirements
 
